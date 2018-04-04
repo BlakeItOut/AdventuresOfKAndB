@@ -1,0 +1,13 @@
+#logo{
+	position:fixed;
+	left: 49%;
+	tranform: translateX(-50%);
+	top: 0px;
+	height: 50px;
+}
+
+@media (max-width: 767px) {
+	#navPlaceHolder{
+		display:none;
+	}
+}
