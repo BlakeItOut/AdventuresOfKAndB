@@ -1,0 +1,19 @@
+{
+  "name": "adventuresofkandb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakes3489/AdventuresOfKAndB.git"
+  },
+  "author": "Blake McMillan Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakes3489/AdventuresOfKAndB/issues"
+  },
+  "homepage": "https://github.com/blakes3489/AdventuresOfKAndB#readme"
+}
