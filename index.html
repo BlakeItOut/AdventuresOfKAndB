@@ -37,6 +37,14 @@
         </div> 
     </nav>
     <a href="#"><img src="https://static1.squarespace.com/static/582caf85197aeac2d00b2d31/582f4a71197aea223454992b/582f4aafcd0f684243ea9232/1479494410827/flower+bouquet+7.png?format=1500w" id="logo" class="text-center"></a>
+    <div id="example">
+        <carousel-3d>
+            <slide v-for="(slide, i) in slides" :index="i">
+                <img src="https://placehold.it/360x270">
+            </slide>
+        </carousel-3d>
+    </div>
+
 
 
     <!-- Optional JavaScript -->
@@ -44,6 +52,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
 

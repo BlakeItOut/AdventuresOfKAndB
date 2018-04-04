@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/blakes3489/AdventuresOfKAndB#readme",
   "dependencies": {
+    "vue": "^2.5.16",
     "vue-carousel-3d": "^0.1.20"
   }
 }
