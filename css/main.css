@@ -1,9 +1,14 @@
 #logo{
 	position:fixed;
 	left: 50%;
-	margin-left:-40px;
+	margin-left:-25px;
 	top: 0px;
-	width: 80px;
+	width: 50px;
+	z-index: 500;
+}
+
+#nav{
+	z-index: 250 !important;
 }
 
 @media (max-width: 767px) {
@@ -11,3 +16,44 @@
 		display:none;
 	}
 }
+
+.content{
+	padding: 128px;
+}
+
+body {
+	background-image: url("https://png.pngtree.com/element_origin_min_pic/17/03/02/c35aa4bc280ce58da60a02b4a0591ab0.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.caption{
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 75px;
+	padding-bottom:50px;
+}
+
+#framed {
+	position:absolute;
+	left: 50%;
+	margin-left:-355px;
+	top: 70px;
+	width: 710px;
+	z-index: 125;
+	height: 842px;
+}
+
+.bar{
+	background-color: black;
+	color: white;
+}
+
+#bottom {
+	height: 50px;
+	width: 100%;
+	position:fixed;
+	bottom: 0px;
+	z-index: 249;
+}
+
