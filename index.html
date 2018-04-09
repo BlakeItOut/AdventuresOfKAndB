@@ -28,7 +28,7 @@
                     <a class="nav-link" href="#"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Directions">Directions</a>
+                    <a class="nav-link" href="#Location">Location</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#POI">POI</a>
@@ -36,31 +36,43 @@
             </ul>
         </div> 
     </nav>
-    <a href="#home" class="nav-link"><img src="https://static1.squarespace.com/static/57b26ec359cc6873eeb4b006/t/57b27748414fb514a3961812/1522102716091/?format=1500w" id="logo"></a>
-    <div id="home" class="content">
-        <img src="assets/Frame.png" id="framed">
+    <a href="#Home" id="homeLink"><div id="logo"><h1>K+B</h1></div></a>
+    <div id="Home" class="content">
+        <<img src="assets/Frame.png" id="framed">
         <div id="pictures">
-            <carousel-3d :width="500" :height="650" :display="7" :perspective="0">
+            <carousel-3d :width="200" :height="260" :display="20" :perspective="0">
                 <slide :index="0" id="slide1" class="slide">
-                    <img src="assets/Slide1.jpg">
+                    <img src="assets/Slide1.jpg" :width="dw" :height="dh">
                 </slide>
                 <slide :index="1" id="slide2" class="slide">
-                    <img src="assets/Slide2.jpg">
+                    <img src="assets/Slide2.jpg" :width="dw" :height="dh">
                 </slide>
                 <slide :index="2" id="slide3" class="slide">
-                    <img src="assets/Slide3.jpg">
+                    <img src="assets/Slide3.jpg" :width="dw" :height="dh">
                 </slide>
                 <slide :index="3" id="slide4" class="slide">
-                    <img src="assets/Slide4.jpg">
+                    <img src="assets/Slide4.jpg" :width="dw" :height="dh">
                 </slide>
                 <slide :index="4" id="slide5" class="slide">
-                    <img src="assets/Slide5.jpg">
+                    <img src="assets/Slide5.jpg" :width="dw" :height="dh">
                 </slide>
                 <slide :index="5" id="slide6" class="slide">
-                    <img src="assets/Slide6.jpg">
+                    <img src="assets/Slide6.jpg" :width="dw" :height="dh">
                 </slide>
                 <slide :index="6" id="slide7" class="slide">
-                    <img src="assets/Slide7.jpg">
+                    <img src="assets/Slide7.jpg" :width="dw" :height="dh">
+                </slide>
+                <slide :index="7" id="slide8" class="slide">
+                    <img src="assets/Slide7.jpg" :width="dw" :height="dh">
+                </slide>
+                <slide :index="8" id="slide9" class="slide">
+                    <img src="assets/Slide7.jpg" :width="dw" :height="dh">
+                </slide>
+                <slide :index="9" id="slide10" class="slide">
+                    <img src="assets/Slide7.jpg" :width="dw" :height="dh">
+                </slide>
+                <slide :index="10" id="slide11" class="slide">
+                    <img src="assets/Slide7.jpg" :width="dw" :height="dh">
                 </slide>
             </carousel-3d>
         </div>
@@ -87,16 +99,32 @@
         </div>
     </div>
     <div id="Registry" class="content">
-        <h1>Registry</h1>
+        <div class="h-25 w-100 py-3">
+            <a href="https://www.zola.com/wedding/kristanandblake/registry"><img src="https://www.zola.com/images/logos/zola-registry-logo-black.svg" class="RegistryLogos"></a>
+        </div>
+        <div class="h-25 w-100 py-5">
+            <a href="https://www.target.com/gift-registry/registry/68487ffe8f1842b9a47003e45c127b25"><img src="assets/Target.png" class="RegistryLogos"></a>
+        </div>
+        <div class="h-25 w-100 py-3">
+            <a href="https://www.zola.com/wedding/kristanandblake/registry"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Best_Buy_Logo.svg/2000px-Best_Buy_Logo.svg.png" class="RegistryLogos"></a>
+        </div>
+        <div class="h-25 w-100 py-5">
+            <a href="https://www.amazon.com/wedding/share/adventuresofkandb"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Amazon_logo_plain.svg/2000px-Amazon_logo_plain.svg.png" class="RegistryLogos"></a>
+        </div>
     </div>
     <div id="Details" class="content">
-        <h1>Details</h1>
+        <h2>Ceremony</h2>
+        <h4>Sunday, July 29th, 2018</h4>
+        <h4>7:00pm-8:00pm</h4>
+        <h2>Reception</h2>
+        <h4>Sunday, July 29th, 2018</h4>
+        <h4>8:00pm-11:00pm</h4>
     </div>
-    <div id="Directions" class="content">
-        <h1>Directions</h1>
+    <div id="Location" class="content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.3029272681865!2d-83.05166454849308!3d42.33606447908647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2d322d86fd63%3A0x6e47ab5690ca9bd0!2sM%40dison+Building!5e0!3m2!1sen!2sus!4v1523167378221" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
     <div id="POI" class="content">
-        <h1>POI</h1>
+        <h1>Points of interest coming soon!</h1>
     </div>
     <div id="bottom" class="bar"></div>
 

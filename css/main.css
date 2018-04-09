@@ -1,10 +1,16 @@
 #logo{
 	position:fixed;
 	left: 50%;
-	margin-left:-25px;
+	margin-left:-40px;
 	top: 0px;
-	width: 50px;
+	width: 80px;
 	z-index: 500;
+	text-align: center;
+	color: white;
+}
+
+.nav-link {
+	color: white !important;
 }
 
 #nav{
@@ -18,30 +24,49 @@
 }
 
 .content{
-	padding: 128px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	height: 100vh;
+	text-align: center;
 }
 
 body {
-	background-image: url("https://png.pngtree.com/element_origin_min_pic/17/03/02/c35aa4bc280ce58da60a02b4a0591ab0.jpg");
-	background-repeat: no-repeat;
+	background-image: url("https://i.pinimg.com/originals/3d/f9/e9/3df9e933605a76f638e137df1533357c.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
 	background-size: cover;
+/*	animation: backgroundScroll 15s linear infinite alternate;
+    animation-fill-mode: forwards*/;
+	color: white;
+}
+
+@-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -180px 0px;}
 }
 
 .caption{
 	width: 500px;
 	margin: 0 auto;
-	padding-top: 75px;
+	padding-top: 10px;
 	padding-bottom:50px;
 }
 
 #framed {
 	position:absolute;
 	left: 50%;
-	margin-left:-355px;
-	top: 70px;
-	width: 710px;
+	margin-left:-130px;
+	top: 73px;
+	width: 260px;
 	z-index: 125;
-	height: 842px;
+	height: 330px;
+}
+
+.RegistryLogos {
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	width: auto;
 }
 
 .bar{
